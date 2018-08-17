@@ -60,6 +60,8 @@ public class FirstOne extends JPanel {
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
+        System.out.println("LOOl");
+        
         while (true){
             game.moveBall(frame);
             game.repaint();
